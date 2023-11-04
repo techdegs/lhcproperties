@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-dark md:px-16 lg:px-24 px-[1.5rem] place-content-between py-4 flex items-center flex-row w-full">
+      <header className="top-0 md:px-16 lg:px-24 px-[1.5rem] place-content-between py-4 flex items-center flex-row w-full">
         <Link href={"/"} prefetch={false}>
           <div className="w-40">
             <div className="flex items-center justify-center">
@@ -34,20 +34,20 @@ const Header = () => {
         </Link>
         <div className="hidden flex-1 justify-end flex-row items-center gap-10 lg:flex">
           <div className="flex gap-8">
-            <Link href="/" className="text-indigo-950 text-base font-semibold">
+            <Link href="/" className="text-indigo-950 dark:text-white text-base font-semibold">
               Home
             </Link>
-            <Link href="/properties" className="text-indigo-950 text-base">
+            <Link href="/properties" className="text-indigo-950 dark:text-white text-base">
               Properties
             </Link>
             <Link
               href="/"
-              className="text-indigo-950 text-base whitespace-nowrap"
+              className="text-indigo-950 text-base dark:text-white whitespace-nowrap"
             >
               Properties
             </Link>
           </div>
-          <button className="text-cyan-400 text-base font-semibold whitespace-nowrap bg-indigo-950 py-3 px-3 rounded-full">
+          <button className="text-cyan-300 text-base font-semibold whitespace-nowrap dark:bg-cyan-300 dark:text-indigo-900 bg-indigo-950 py-3 px-3 rounded-full">
             SELL PROPERTY
           </button>
         </div>
@@ -76,7 +76,7 @@ const Header = () => {
             onClick={() => setIsOpen(true)}
             className="text-cyan-400 lg:hidden items-center"
           >
-            <AlignLeft className={theme === "light" ? 'text-gray-900' : 'text-white'}  size={24} />
+            <AlignLeft  size={24} />
           </button>
         </div>
       </header>
@@ -95,7 +95,7 @@ const Header = () => {
             (isOpen ? " translate-x-0 " : " translate-x-[80%] ")
           }
         >
-          <nav className="relative w-full max-w-lg pb-10 gap-2 flex flex-col overflow-y-scroll h-full px-10 mt-10">
+          <nav className="relative w-full max-w-lg pb-10 gap-2 flex flex-col overflow-y-scroll h-full px-8 mt-10">
             <button
               onClick={() => {
                 setIsOpen(false);
