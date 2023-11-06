@@ -13,7 +13,12 @@
 body {
   font-family: Outfit;
 }
-    
+
+@media screen and (max-width:400px) {
+  .featureGrid{
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}
  
 @layer base {
   :root {
