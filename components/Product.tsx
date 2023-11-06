@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Product = () => {
   return (
-    <div className="flex flex-col border border-cyan-100 max-w-[480px] md:w-[240px] lg:w-[290px] rounded-md w-[290px]">
+    <div className="flex flex-col border border-cyan-100 max-w-[480px] md:w-[240px] lg:w-[290px] rounded-md w-[290px] shadow-md">
       <div className="relative rounded-md">
         <Image
           src="/images/house.png"
