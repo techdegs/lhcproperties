@@ -3,7 +3,7 @@ import Image from "next/image";
 const Feature = () => {
   return (
     <div className="md:px-16 lg:px-24 px-8 relative flex w-full -mr-5 pt-5 max-md:max-w-full max-md:pb-24 max-md:px-5 bg-white">
-      <div className="flex flex-wrap gap-8 py-24 md:flex-wrap lg:flex-nowrap ">
+      <div className="flex flex-wrap gap-8 py-20 md:flex-wrap lg:flex-nowrap ">
         <div className="rounded-md bg-cyan-100 relative flex items-center w-full">
           <div className="p-8 max-w-[380px]">
             <h4 className="text-gray-900 text-4xl font-bold pb-4">

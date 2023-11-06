@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Product = () => {
   return (
-    <div className="flex flex-col border border-cyan-100 max-w-[580px] rounded-md">
+    <div className="flex flex-col border border-cyan-100 max-w-[480px] md:w-[240px] lg:w-[290px] rounded-md w-[290px]">
       <div className="relative rounded-md">
         <Image
           src="/images/house.png"
@@ -31,15 +31,15 @@ const Product = () => {
           </div>
           <div className="flex gap-2 justify-between mt-5">
             <div className="flex items-center gap-1">
-              <BedDouble color="darkblue" size={25} />
+              <BedDouble color="darkblue" size={20} />
               <span className="text-indigo-950 text-sm">4 Bedroom</span>
             </div>
             <div className="flex items-center gap-1">
-              <Bath size={25} color="darkblue" />
+              <Bath size={20} color="darkblue" />
               <span className="text-indigo-950 text-sm">3 Bath</span>
             </div>
             <div className="flex items-center gap-1">
-              <LandPlot size={25} color="darkblue" />
+              <LandPlot size={20} color="darkblue" />
               <span className="text-indigo-950 text-sm">2497 sqft</span>
             </div>
           </div>
