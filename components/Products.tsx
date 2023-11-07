@@ -35,7 +35,7 @@ const Products = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-start flex-wrap gap-5 w-full">
+      <div className="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-4">
         <Product />
         <Product />
         <Product />

@@ -20,7 +20,7 @@ export default function Home() {
       <Feature />
       <Products />
       <CTA />
-      {/* md:px-16 lg:px-24 px-8 w-full */}
+      {/* md:px-16 lg:px-24 px-8 w-full py-24 */}
       <Footer />
     </>
   );

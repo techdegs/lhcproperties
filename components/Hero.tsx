@@ -40,7 +40,7 @@ const Hero = () => {
               </TabsTrigger>
             </TabsList>
             <TabsContent className="-mt-2 bg-white" value="Buy">
-              <div className="flex space-evenly w-full gap-3 py-6 px-5 sm:px-3 sm:py-3">
+              <div className="flex space-evenly w-full gap-3 py-6 px-5">
                 <div className="flex flex-col gap-1 flex-1">
                   <p className="text-gray-900">Buying Location</p>
                   <input
@@ -60,7 +60,7 @@ const Hero = () => {
                 <div className="flex flex-col gap-1 flex-1">
                   <p className="text-gray-900">Selling Location</p>
                   <input
-                    className="border-b focus:border-none outline-none w-full"
+                    className="border-b focus:border-none outline-none w-full dark:bg-transparent text-gray-900"
                     type="search"
                     name="search-place"
                     placeholder="Search Places and locations..."
@@ -76,7 +76,7 @@ const Hero = () => {
                 <div className="flex flex-col gap-1 flex-1">
                   <p className="text-gray-900">Rent Location</p>
                   <input
-                    className="border-b focus:border-none outline-none w-full"
+                    className="border-b focus:border-none outline-none w-full dark:bg-transparent text-gray-900"
                     type="search"
                     name="search-place"
                     placeholder="Search Places and locations..."
